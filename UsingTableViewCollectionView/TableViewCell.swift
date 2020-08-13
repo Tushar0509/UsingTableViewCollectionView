@@ -2,14 +2,14 @@
 //  TableViewCell.swift
 //  CollectionView
 //
-//  Created by    Ankit on 20/10/17.
+//  Created by Ankit on 20/10/17.
 //  Copyright © 2017 Ankit. All rights reserved.
 //
 
 import UIKit
 
 class TableViewCell: UITableViewCell, UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
-
+    var temp  = 0;
     @IBOutlet weak var collectionView: UICollectionView!
     var imageArray = [String] ()
     override func awakeFromNib() {
@@ -21,19 +21,25 @@ class TableViewCell: UITableViewCell, UICollectionViewDelegate, UICollectionView
         // Initialization code
     }
 
+    
 
     func numberOfSections(in collectionView: UICollectionView) -> Int {
         return 1
     }
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
 
-        return 10
+        return 7
     }
+    
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         if let cell: CollectionViewCell = collectionView.dequeueReusableCell(withReuseIdentifier: "collectionCell", for: indexPath) as? CollectionViewCell
         {
-            let randomNumber = Int(arc4random_uniform(UInt32(imageArray.count)))
-            cell.imageView.image = UIImage(named: imageArray[randomNumber])
+            print("here")
+           // let randomNumber = Int(arc4random_uniform(UInt32(imageArray.count)))
+            cell.imageView.image = UIImage(named: imageArray[temp])
+            temp += 1;
+            imageView?.topAnchor.constraint(equalTo: topAnchor).isActive = true
+            imageView?.bottomAnchor.constraint(equalTo: bottomAnchor).isActive = true
             return cell
         }
         return UICollectionViewCell()

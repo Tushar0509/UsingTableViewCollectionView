@@ -16,6 +16,9 @@
 		8D8935A024E459690028F744 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D89359F24E459690028F744 /* CollectionViewCell.swift */; };
 		8D8935A224E459720028F744 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8935A124E459720028F744 /* ViewController.swift */; };
 		8D8935A424E459A40028F744 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D8935A324E459A40028F744 /* Main.storyboard */; };
+		8D8935AA24E464DF0028F744 /* InstaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8935A924E464DF0028F744 /* InstaTableViewCell.swift */; };
+		8D8935AC24E465320028F744 /* InstagramCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8935AB24E465320028F744 /* InstagramCell.swift */; };
+		8D8935AF24E504F90028F744 /* InstaViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8935AE24E504F90028F744 /* InstaViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +33,9 @@
 		8D89359F24E459690028F744 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		8D8935A124E459720028F744 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "../../../../Downloads/Multiple-collectionView-in-Multiple-tableView-cells-master-2/CollectionView/Controller/ViewController.swift"; sourceTree = "<group>"; };
 		8D8935A324E459A40028F744 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		8D8935A924E464DF0028F744 /* InstaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaTableViewCell.swift; sourceTree = "<group>"; };
+		8D8935AB24E465320028F744 /* InstagramCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstagramCell.swift; sourceTree = "<group>"; };
+		8D8935AE24E504F90028F744 /* InstaViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,8 +71,11 @@
 				8D89358624E4594F0028F744 /* AppDelegate.swift */,
 				8D89358824E4594F0028F744 /* SceneDelegate.swift */,
 				8D89359D24E459650028F744 /* TableViewCell.swift */,
-				8D8935A124E459720028F744 /* ViewController.swift */,
 				8D89359F24E459690028F744 /* CollectionViewCell.swift */,
+				8D8935A924E464DF0028F744 /* InstaTableViewCell.swift */,
+				8D8935AE24E504F90028F744 /* InstaViewCell.swift */,
+				8D8935A124E459720028F744 /* ViewController.swift */,
+				8D8935AB24E465320028F744 /* InstagramCell.swift */,
 				8D8935A324E459A40028F744 /* Main.storyboard */,
 				8D89359224E459520028F744 /* Assets.xcassets */,
 				8D89359424E459520028F744 /* LaunchScreen.storyboard */,
@@ -150,7 +159,10 @@
 				8D89359E24E459650028F744 /* TableViewCell.swift in Sources */,
 				8D8935A024E459690028F744 /* CollectionViewCell.swift in Sources */,
 				8D89359124E4594F0028F744 /* UsingTableViewCollectionView.xcdatamodeld in Sources */,
+				8D8935AA24E464DF0028F744 /* InstaTableViewCell.swift in Sources */,
+				8D8935AC24E465320028F744 /* InstagramCell.swift in Sources */,
 				8D8935A224E459720028F744 /* ViewController.swift in Sources */,
+				8D8935AF24E504F90028F744 /* InstaViewCell.swift in Sources */,
 				8D89358724E4594F0028F744 /* AppDelegate.swift in Sources */,
 				8D89358924E4594F0028F744 /* SceneDelegate.swift in Sources */,
 			);
